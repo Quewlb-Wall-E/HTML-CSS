@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*Configurações para telas*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html body{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    background-color: blue;
+}
+
+header > h1{
+    text-align: center;
+    font-size: 2em;
+    padding:5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.8px 0.7px 1.1px;
+}
+li{
+    width:80px;
+    height:20px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid blue;
+    color:white;
+    margin:auto;
+    text-align:center;
+}
+li:hover{
+    transition-duration: 0.2s;
+    border-width: 7px;
+    border-style:solid;
+    border-color: blue;
+    background-color: green;
+    color: yellow;
+    
+}
+main{
+    width: 80%;
+    height: 100vh;
+    margin:auto
+}
+

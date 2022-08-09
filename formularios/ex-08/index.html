@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formulario.js" method="post" autocomplete="on">
+        <label for="lista_dos_estados" placeholder="Estado"><strong>Estado:</strong></label>
+        <select name="estado" id="lista_dos_estados">
+            <optgroup label="Região">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RN">Rio Grande do Norte</option>
+            </optgroup>
+        </select>
+
+        <p>
+            <label for="profissao">Profissão</label>
+            <input type="text" name="profiss40" id="profissao" list="ls">
+            <datalist id="ls">
+                <option value="En">Engenharia</option>
+                <option value="Me">Medicina</option>
+                <option value="As">Astronomia</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="campo1">Seu comentátio</label><br>
+            <textarea name="campo" id="campo1" cols="30" rows="30"></textarea>
+        </p>
+
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+</body>
+</html>

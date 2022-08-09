@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1200px;
+    min-width: 600px;
+    max-height: 2400;
+    min-height: 1200px;
+    margin: auto;
+}
+
+main{
+    max-width: 1200px;
+    min-width: 600px;
+    max-height: 2400;
+    min-height: 1200px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.fundo{
+   position:relative;
+   max-width: 1190px;
+   height: 200px;
+   border: 1px solid black;
+   margin: auto;
+}
+
+.video{
+   position: absolute;
+   width: 1190px;
+   height: 200px;
+}
+
+section.text > p{
+    margin-top: 80px;
+    margin-left: 70px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+    font-size: 3em;
+}
+#fundo{
+    background-image: linear-gradient(to right, rgba(190, 17, 17, 0.849), rgba(175, 11, 11, 0.89));
+}

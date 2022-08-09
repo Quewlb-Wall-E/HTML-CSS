@@ -1,0 +1,103 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+    :root{
+        --fonte_para_h1_header: 'Potta One', cursive, arial, verdana, sans-serif;
+        --fonte-padrao_para_p: 'Lobster', cursive, arial, verdana, sans-serif;
+    }
+
+    html/body{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body{
+        background-image: url('../imagens/fundo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: white;
+        background-attachment: fixed;
+    }
+
+    header{
+        background-color: black;
+        text-align: center;
+        min-height: 25vh;
+    }
+
+    header > h1{
+        color: white;
+        padding-top: 20px;
+        font-family: var(--fonte_para_h1_header);
+        font-variant: small-caps;
+        font-size: 5vw;
+    }
+
+    header > p{
+        color: white;
+        font-family: var(--fonte_para_h1_header);
+        font-variant: small-caps;
+        font-size: 2vw;
+    }
+
+    header > p > a{
+        text-decoration: none;
+    }
+
+    header > p > a:hover{
+        text-decoration: underline;
+    }
+
+    main{
+       min-height: 100vh;
+       margin: auto;
+    }
+
+    section{
+        margin: 0px;
+        padding: 20px;
+    }
+
+    section p{
+        font-family: var(--fonte-padrao_para_p);
+        font-size: 2vw;
+        line-height: 1.8em;
+    }
+
+    section.normal{
+        background-color: rgba(246, 194, 138, 0.623);
+    }
+
+    section.imagem > p{
+        background-color: rgba(0, 0, 0, 0.273);
+        color: white;
+        display: inline-block;
+        padding: 12px;
+        
+    }
+
+    section#img-01{
+        background-image: url('../imagens/caneta.png');
+        background-size: cover;
+        background-attachment: fixed;
+        box-shadow: inset 1px 1px 10px 0px rgba(0, 0, 0, 0.687);
+    }
+
+    section#img-02{
+        background-image: url('../imagens/pesca.jpg');
+        background-position: top center;
+        background-size: cover;
+        background-attachment: fixed;
+        box-shadow: inset 1px 1px 10px 0px rgba(0, 0, 0, 0.687);
+
+    }
+
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><strong><em>Quarto Formulário</em></strong></h1>
+    <form action="formulario.js" method="post" autocomplete="on">
+        <p><label for="nomeId">Nome:</label> <input type="text" name="nome" id="nomeId" placeholder="nome" required autocomplete="name" required maxlength="20" size="20"></p>
+        <p><label for="mediaId">Media</label> <input type="number" name="media" id="mediaId" placeholder="media" min="0" max="10" step="0.1" size="10" required> </p>
+        <p><label for="masId">Mês</label> <input type="month" name="mes" id="mesId"></p>
+        <p><label for="dataId">Data</label> <input type="date" name="data" id="dataId"></p>
+        <p><label for="horaId">Hora:</label> <input type="time" name="hora" id="horaId"></p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

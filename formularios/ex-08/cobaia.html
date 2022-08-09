@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1><strong><em>Formulário de Cobaia</em></strong></h1>
+        <form action="formulario.js" method="post" autocomplete="on">
+            <label for="Nomes_de_usuarios">Username:</label>
+            <select name="Nomes" id="Nomes_de_usuarios">
+                <label for="Nomes_usuarios">Username:</label>
+                <optgroup label="users root:">
+                    <option value="usuario_01" selected>Marcos Dos Santos</option>
+                    <option value="usuario_02">Julio Ferroz</option>
+                    <option value="usuario_03">Marco Aurélio</option>
+                    <option value="usuario_04">Julianne Alcatras</option>
+                    <option value="usuario_05">Joaquinna mellwork</option>
+                    <option value="usuario_06">Katrinne Vlrety</option>
+                    <option value="usuario_07">Quewlb</option>
+                    <option value="usuario_08">Athor</option>
+                    <option value="usuario_09">Kaleb</option>
+                </optgroup>
+            </select>
+            
+            <P>
+                <label for="habilidades">Habilidades</label>
+                <input type="text" name="name" placeholder="Habilidades:" id="habilidades" list="lestr">
+                <datalist id="lestr">
+                    <option value="user01">BMA</option>
+                    <option value="user02">BMB</option>
+                    <option value="user03">BTM</option>
+                    <option value="user04">TMG</option>
+                </datalist>
+            </P>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><strong><em>Sexto Formulário</em></strong></h1>
+    <form action="formulario.js" method="post">
+        <fieldset>
+            <legend><strong>Campo Obrigatório</strong></legend>
+                <p><input type="radio" name="caixa_de_escolha_radio" id="macho" value="M"> <label for="macho">Homem</label> </p>
+                <p><input type="radio" name="caixa_de_escolha_radio" id="femea" value="F" checked> <label for="femea" >Mulher</label> </p>
+                <p><input type="radio" name="caixa_de_escolha_radio" id="outros" value="Outros"> <label for="outros">Outros</label> </p>
+            </fieldset>
+        <!--
+            Em radio, tevamos ter em name dos elementos os mesmo caracteres>> Erro! Muito comum.
+        -->
+
+        <fieldset>
+            <legend>Marque os cursos que deseja realizar!</legend>
+                <p><input type="checkbox" name="Especialista_em_mecânica_de_aeronaves" id="bma" value="BMA"> <label for="bma">Especialista em mecânica de aeronaves</label></p>
+                <p><input type="checkbox" name="Ciência_da_computação" id="Cc" value="Cc"><label for="Cc">Ciência da Computação</label></p>
+                <p><input type="checkbox" name="Engenharia_mecânica" id="Em" value="Em"> <label for="Em">Engenharia mecânica</label> </p>
+                <p><input type="checkbox" name="Biologia" id="Bio" value="Bio"> <label for="Bio" required>Biologia</label> </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar Campos">
+        </p>
+
+
+    
+        
+    </form>
+</body>
+</html>

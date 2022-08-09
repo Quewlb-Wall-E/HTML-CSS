@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-image: url('../imagens/imagem-fundo-projeto-04.jpg');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+header {
+    background-color: rgb(5, 0, 10);
+    height: 18vh;
+}
+header h1{
+    color: white;
+    font-size: 3.8em;
+    text-align: center;
+}
+header p{
+    color: white;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+menu > a{
+    width: 180px;
+    height: 45px;
+    padding:2px;  
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #8e7dee;
+    font-size: 1.1em;
+}
+
+menu > a:hover{
+    transition-duration: 0.4s;
+    text-decoration:underline;
+    color:white;
+}
+
+main{
+    /*background-color: rgba(0, 0, 18, 0.657);*/
+    height: 100vh;
+    max-width: 1800px;
+    margin: auto;
+}
+
+main > article > div{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: #04173f;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+main > article > div:hover{
+    border-color: black;
+    transition-duration: 0.7s;
+}
+
+div.fundo{
+position: relative;
+width: 260px;
+height: 146px;
+}
+
+iframe.padrao_posicionamento_video{
+position: absolute;
+width: 260px;
+height: 146px;
+}
+
+article{
+max-width: 1200px;
+margin: auto;
+}
+
+footer{
+color: rgb(3, 3, 29);
+font-size: 1em;
+text-align: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Realize seu Cadastro</h1>
+    <form action="formulario.php" method="get">
+        <p>
+            Nome:
+            <input type="text" name="name" id="name">
+            <input type="button" value="Cadastrar">
+            <input type="button" value="clicar" id="kaio" onclick="clicou">
+            <div id="res">
+
+            </div>
+        </p>
+        
+    </form>
+   
+    
+    <script>
+        function clicou(){
+            var n1 = window.document.querySelector('input#kaio')
+            var s = Number(n1.value)
+            var res = window.document.querySelector('div#res')
+            if(s <= 10){
+                res.innerHTML = "Você clicou!"
+            }else{
+                res.innerHTML = "Vamo parar."
+            }
+        }
+
+    </script>
+</body>
+</html>
